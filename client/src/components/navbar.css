@@ -1,0 +1,57 @@
+a{
+    text-decoration: none;
+    color: aliceblue;
+
+}
+li{
+    list-style: none;
+}
+.container{
+    background-color: aliceblue;
+    box-sizing: border-box;
+    width:100%;
+    /* padding: 10px; */
+}
+.list-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.child-lists{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    gap: 150px;
+}
+#logout{
+    padding: 12px;
+    background-color: rgb(230, 33, 33);
+    border-radius: 10px;
+    font-weight:bolder;
+    margin-right: 20px;
+}
+#employeelist{
+    background-color: rgb(48, 25, 74);
+    padding: 12px;
+    border-radius: 10px;
+    color: beige;
+
+    
+}
+
+#username{
+    background-color: rgb(25, 74, 32);
+    padding: 12px;
+    border-radius: 10px;
+    color: beige;
+
+
+}
+#logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}

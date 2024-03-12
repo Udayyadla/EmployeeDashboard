@@ -1,0 +1,84 @@
+/* home.css */
+
+/* Style for the main container */
+/* .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  } */
+  
+  /* Style for the form */
+  h1,h2{
+    text-align: center;
+  }
+  .create-employee {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Style for form fields */
+  .fields {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  /* Style for labels */
+  /* label {
+    font-weight: bold;
+  } */
+  
+  /* Style for error messages */
+  .error {
+    color: red;
+  }
+  
+  /* Style for buttons */
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  /* Style for file input */
+  input[type="file"] {
+    margin-top: 5px;
+  }
+  
+  /* Style for radio and checkbox labels */
+  input[type="radio"] + label,
+  input[type="checkbox"] + label {
+    margin-right: 10px;
+  }
+  
+  /* Style for radio and checkbox inputs */
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  /* Style for form elements */
+  .text-field,
+  input[type="email"],
+  input[type="tel"],
+  select {
+    padding: 8px;
+    margin-top: 5px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  /* Style for form elements on small screens */
+  @media (max-width: 768px) {
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    select {
+      width: auto;
+    }
+  }
+  
